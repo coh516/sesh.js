@@ -33,7 +33,9 @@ In my DMT POET system, I call the lib sesh.  I'm publishing this standalone fork
 #### Simplified connection with main init function (automatically patches httpServer)
 
     var http = require('http'),
-        session = require('./lib/core').magicSession(main, 6789); // create a main and associate it to port 6789
+        session = require('sesh')
+        
+        session.magicSession(main, 6789); // create a main and associate it to port 6789
 <pre>
 function main() { 
 
