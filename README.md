@@ -6,7 +6,7 @@ In my DMT POET system, I call the lib sesh.  I'm publishing this standalone fork
 ## Installation
 
 ### Installing session.js
-  use standard git installation
+  copy into modules_modules/sesh 
 
 ### Example request.session
 
