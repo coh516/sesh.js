@@ -26,6 +26,7 @@ This was forked from the original Session.js and re-built for the DMT POET proje
 
 ### Usage
 
+
 #### Simplified connection with main init function (automatically patches httpServer)
 
     var http = require('http'),
@@ -41,6 +42,8 @@ function main() {
 	if (this.post) {
 		console.log(this.request, this.response);
 	}
+	console.log(this.request.session);
+	console.log(this.request.sessionRoot);
 }
 </pre>
  
