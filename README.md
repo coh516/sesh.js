@@ -41,6 +41,7 @@ function main() {
 	}
 	if (this.post) {
 		console.log(this.request, this.response);
+		this.spit("hello to client"); // writes as text/plain .. some more twkin needed for other types
 	}
 	console.log(this.request.session);
 	console.log(this.request.sessionRoot);
