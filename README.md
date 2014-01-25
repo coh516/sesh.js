@@ -27,7 +27,7 @@ In my DMT POET system, I call the lib sesh.  I'm publishing this standalone fork
 
 ### Usage
 
-#### the package was changed to create an init function that parses out get and push requests and instantializes the main with response/requests
+#### the package was changed to create an init function that parses out get and post requests and instantializes the main with response/requests
 
 
 #### Simplified connection with main init function (automatically patches httpServer)
