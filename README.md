@@ -36,8 +36,8 @@ In my DMT POET system, i call the lib sesh.  I'm publishing this standalone in c
 
     var http = require('http'),
         session = require('./lib/core').magicSession(main, 6789); // create a main and associate it to port 6789
-
-   function main() { 
+<pre>
+function main() { 
 
 	if (this.get) { 
 		console.log(this.request, this.response);
@@ -46,6 +46,7 @@ In my DMT POET system, i call the lib sesh.  I'm publishing this standalone in c
 		console.log(this.request, this.response);
 	}
 }
+</pre>
  
 
 
