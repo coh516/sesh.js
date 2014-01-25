@@ -1,7 +1,7 @@
 # sesion.js -coh fork- even simpler session management for node.js with singleton main connection listener. 
 
 This was forked and re-built for the DMT POET project. It ads a singleton init function and connects it to a port.  This allows a simpler method of dealing with the request/response callbacks while providing sessioning.
-In my DMT POET system, I call the lib sesh.  I'm publishing this standalone in case anyone has any interest.
+In my DMT POET system, I call the lib sesh.  I'm publishing this standalone fork in case anyone has any interest.
 
 ## Installation
 
