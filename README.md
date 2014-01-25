@@ -1,8 +1,7 @@
 # sesh.js - super simple session management for node.js with main connection listener instantializer
 
-this was forked and re-built for the DMT POET project. It ads an init function and connects it to a port.  This allows
-a simpler method of dealing with the request/response callbacks while proviing sessioning.
-In my DMT POET system, i call the lib sesh.  I'm publishing this standalone in case anyone has any interest.
+This was forked and re-built for the DMT POET project. It ads a singleton init function and connects it to a port.  This allows a simpler method of dealing with the request/response callbacks while providing sessioning.
+In my DMT POET system, I call the lib sesh.  I'm publishing this standalone in case anyone has any interest.
 
 ## Installation
 
@@ -28,8 +27,7 @@ In my DMT POET system, i call the lib sesh.  I'm publishing this standalone in c
 
 ### Usage
 
-#### the package was changed to create an init function that parses out get and push requests and instantializes the main with response/reqeusts
-
+#### the package was changed to create an init function that parses out get and push requests and instantializes the main with response/requests
 
 
 #### Simplified connection with main init function (automatically patches httpServer)
