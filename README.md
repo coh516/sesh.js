@@ -50,8 +50,4 @@ function main() {
  
 
 
-# Authors
-
-     inimino@inimino.org, Marak Squires
-     coh516@gmail.com, Seth Tenenbaum
 
