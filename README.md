@@ -1,6 +1,6 @@
 # sesh.js HTTP server micro framework. 
 
-This was forked from the original Session.js and re-built for the DMT POET project as a http micro-framework. It ads a singleton init function and connects it to a port.  This allows a simpler method of dealing with the request/response callbacks and post/get pseudo-events while providing sessioning.  I'm publishing this standalone fork in case anyone has any interest.
+This was forked from the original Session.js and re-built for the DMT POET project as a http micro-framework. It adds a singleton init function and connects it to a port.  This allows a simpler method of dealing with the request/response callbacks and post/get pseudo-events while providing sessioning.  I'm publishing this standalone fork in case anyone has any interest.
 
 ## Installation
 
