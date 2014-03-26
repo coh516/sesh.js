@@ -1,0 +1,16 @@
+{
+  "name": "sesh",
+  "description": "simple framework for simple projects",
+  "version": "0.1.0",
+  "author": "coh",
+  "repository": {
+      "type": "git",
+      "url": "http://github.com/coh516/sesh.js.git" 
+  },
+  "keywords": ["sessions", "cookies", "middleware", "framework"],
+  "dependencies": {
+    "response": ">= 0.1.0"
+  },
+  "main": "./lib/core",
+  "engines": { "node": ">= 0.2.0" }
+}
