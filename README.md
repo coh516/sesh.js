@@ -5,7 +5,7 @@ This was forked from the original Session.js and re-built for the DMT POET proje
 ## Installation
 
 ### Installing session.js
-  copy into modules_modules/sesh 
+  copy into modules_modules/sesh or use npm's git functioanility or just do the standard git checkout method
 
 ### Example request.session
 
